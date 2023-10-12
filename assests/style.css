@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+    background-color: #FF6B6B;
+    padding: 20px;
+    text-align: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+/* Style de la div de bienvenue */
+.welcome {
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #666;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
