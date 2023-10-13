@@ -80,7 +80,7 @@
 <body>
     <!-- Barre de navigation -->
     <div class="navbar">
-        <a href="http://localhost:8000/create.php" class="signup">Inscription</a>
+        <a href="views/create.php" class="signup">Inscription</a>
         <a href="authentification.php" class="login">Connexion</a>
 
     </div>

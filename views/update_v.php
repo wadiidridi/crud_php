@@ -98,7 +98,7 @@ if (isset($_GET["id"])) {
     </style>
 </head>
 <body>
-    <a href="read.php" class="back-button">Retour</a> <!-- Bouton "Retour" pour revenir à la page read.php -->
+    <a href="./read.php" class="back-button">Retour</a> <!-- Bouton "Retour" pour revenir à la page read.php -->
     <h2>Modifier la Personne :</h2>
     <div class="container">
         <!-- Créez un formulaire pour la modification -->

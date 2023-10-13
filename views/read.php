@@ -112,7 +112,7 @@ $result = $conn->query($sql);
                     echo '<td>';
                     echo '<form method="post">';
                     echo '<button type="submit" name="delete" value="' . $row["id"] . '" class="delete-btn">Supprimer</button>';
-                    echo '<a href=".views/update_v.php?id=' . $row["id"] . '" class="edit-btn">Modifier</a>'; // Lien vers la page de modification
+                    echo '<a href="./update_v.php?id=' . $row["id"] . '" class="edit-btn">Modifier</a>'; // Lien vers la page de modification
 
                     echo '</form>';
                     echo '</td>';

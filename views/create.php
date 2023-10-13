@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../assests/style.css">
 
@@ -50,18 +51,24 @@
     
     <!-- Formulaire d'ajout -->
     <div class="container">
-        <h2 style="text-align: center;">Formulaire d'Ajout</h2>
+    <a href="/authentification.php">
+        <button type="submit">Connecté</button>
+
+        </a>
+        <a href="./read.php">
+        <button type="submit">utilisateurs</button>
+
+        </a>
+</br></br></br>
+        <h2 style="text-align: center;">Inscription</h2></br></br>
         <form method="post">
             <label for="mail">Adresse e-mail:</label>
             <input type="text" name="mail" placeholder="Adresse e-mail" required>
             <label for="password">Mot de passe:</label>
-            <input type="password" name="password" placeholder="Mot de passe" required>
+            <input type="password" name="password" placeholder="Mot de passe" required></br></br>
             <button type="submit">Ajouter</button>
         </form>
-        <a href="read.php">
-        <button type="submit">utilisateurs</button>
-
-        </a>
+     
 
     </div>
 </body>
